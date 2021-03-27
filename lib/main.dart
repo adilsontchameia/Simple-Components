@@ -19,10 +19,8 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.blueGrey[900],
       ),
       body: Container(
-        child: Column(
-          children: [
-            Image.asset("images/diamond.png")
-          ],
+        child: Center(
+          child: Image.asset("images/diamond.png"),
         ),
       ),
     );
